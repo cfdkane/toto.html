@@ -1,0 +1,25 @@
+/* Custom CSS for animations and special effects */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.active-tab {
+    border-bottom: 3px solid #F472B6;
+    color: #F472B6;
+    font-weight: 600;
+}
+
+.form-input:focus {
+    border-color: #F472B6;
+    box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.2);
+}
